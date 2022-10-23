@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(192, 149, 149), rgba(255, 0, 0, 0.094), rgb(192, 149, 149));
+}
+
+#root {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  height: 780px;
+  width: 317px;
+  background: #ffd5d5;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* Info */
+
+.photo {
+  display: block;
+  width: 317px;
+  height: 317px;
+  background: url(./assets/photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+  margin: 20px 0 5px 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.title {
+  margin: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #f16565;
+}
+
+.link {
+  display: block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #4A4E74;
+  margin: 10px;
+}
+
+.button {
+  /* Button */
+  box-sizing: border-box;
+  margin: auto;
+  width: 247px;
+  height: 34px;
+  text-align: center;
+
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  /* white */
+
+  background: #FFFFFF;
+  /* gray/300 */
+
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+/* About and Interests */
+
+.about {
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: 'Inter';
+  margin: 0 35px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #2B283A;
+}
+
+p {
+  margin: 0 35px 30px 35px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  color: #4A4E74;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 50px;
+  background: #ea9797;
+  border-radius: 0px 0px 10px 10px;
+  height: 57px;
+}
+
+ul {
+  list-style-type: none;
+  gap: 20px; 
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
