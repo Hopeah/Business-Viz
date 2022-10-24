@@ -97,6 +97,14 @@ h1 {
   border-radius: 6px;
 }
 
+.link:hover, .icon-link:hover {
+  color:rgb(190, 66, 66)
+}
+
+.button:hover {
+  background: rgb(224, 78, 78)
+}
+
 /* About and Interests */
 
 .about {
