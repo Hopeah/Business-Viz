@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Interests() {
+function Interests(props) {
     return (
         <div className='content'>
-            <h2>Interests</h2>
-            <p>Front-end. Back-end. Databases. Learning. Teaching. Sweets. Gaming. Fantasy. Books. Movies.</p>
+            <h2 className={props.color === '' ? "" : `h2-${props.color}`}>Interests</h2>
+            <p className={props.color === '' ? "" : `p-${props.color}`}>Front-end. Back-end. Databases. Learning. Teaching. Sweets. Gaming. Fantasy. Books. Movies.</p>
         </div>
     )
 }

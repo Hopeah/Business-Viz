@@ -1,16 +1,22 @@
 import React from "react"
-import Info from "./components/Info"
-import About from "./components/About"
-import Interests from "./components/Interests"
-import Footer from "./components/Footer"
+import Main from "./components/Main"
+import Colors from "./components/Colors"
+import { useState } from 'react'
+// import About from "./components/About"
+// import Interests from "./components/Interests"
+// import Footer from "./components/Footer"
 
 function App() {
+  const [color, setColor] = useState('')
+
+  function changeColor(pickedColor) {
+    setColor(pickedColor)
+  }
+
     return(
-      <div className="container">
-        <Info />
-        <About />
-        <Interests />
-        <Footer />
+      <div className={color === '' ? "container" : `container-${color}`}>
+        <Colors changeColor={changeColor} />
+        <Main color={color}/>
       </div>
     )
 }
