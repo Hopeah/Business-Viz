@@ -1,7 +1,7 @@
 # [Business-Viz](https://business-viz.netlify.app/)
 A single page application acting as a business card with a pleasant design and changing on hover links.
 
-![alt tag](https://github.com/Hopeah/Business-card/blob/main/public/Business-Viz.PNG)
+![alt tag](https://github.com/Hopeah/Business-card/blob/main/public/Business-Viz.gif)
 
 ## How It's Made:
 
