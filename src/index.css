@@ -35,8 +35,8 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 780px;
-  width: 317px;
+  height: 900px;
+  width: 350px;
   background: #ffd5d5;
   border-radius: 10px 10px 0px 0px;
 }
@@ -44,7 +44,7 @@ main {
 .brushes {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 51%;
   transform: translate(-50%, -50%);
   margin-left: 190px;
 }
@@ -53,7 +53,7 @@ main {
 
 .photo {
   display: block;
-  width: 317px;
+  width: 350px;
   height: 317px;
   background: url(./assets/photo.jpg);
   background-repeat: no-repeat;
@@ -134,12 +134,12 @@ h1 {
 /* About and Interests */
 
 .about {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 h2 {
   font-family: 'Inter';
-  margin: 0 35px;
+  margin: 5px 35px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -149,11 +149,11 @@ h2 {
 }
 
 p {
-  margin: 0 35px 30px 35px;
+  margin: 0 35px 0px 35px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 10.24px;
+  font-size: 15px;
   line-height: 150%;
   /* or 15px */
   color: #4A4E74;
@@ -162,7 +162,7 @@ p {
 /* Footer */
 
 footer {
-  margin-top: 50px;
+  margin-top: 70px;
   background: #ea9797;
   border-radius: 0px 0px 10px 10px;
   height: 57px;
