@@ -9,13 +9,9 @@ import { useState } from 'react'
 function App() {
   const [color, setColor] = useState('')
 
-  function changeColor(pickedColor) {
-    setColor(pickedColor)
-  }
-
     return(
       <div className={color === '' ? "container" : `container-${color}`}>
-        <Colors changeColor={changeColor} />
+        <Colors changeColor={setColor} />
         <Main color={color}/>
       </div>
     )

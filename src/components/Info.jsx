@@ -2,14 +2,16 @@ import React from 'react'
 // import photo from '../assets/photo.jpg'
 
 function Info(props) {
+    const { color } = props
+
     return (
         <div>
             {/* <img src={photo} alt="User's photo" width='317px' /> */}
             <div className='photo'></div>
-            <h1 className={props.color === '' ? "" : `h1-${props.color}`}>Irina Petrova</h1>
-            <h3 className={props.color === '' ? "title" : `title title-${props.color}`}>Full-Stack Software Engineer</h3>
-            <a href="https://irinapetrova.dev" className={props.color === '' ? "link" : `link link-${props.color}`}>irinapetrova.dev</a>
-            <a href="mailto:irina@theluky.com" className={props.color === '' ? "button" : `button button-${props.color}`}>Email</a>
+            <h1 className={color ? `h1-${color}` : ""}>Irina Petrova</h1>
+            <h3 className={color ? `title title-${color}` : "title"}>Full-Stack Software Engineer</h3>
+            <a href="https://irinapetrova.dev" className={color ? `link link-${color}` : "link"}>irinapetrova.dev</a>
+            <a href="mailto:irina@theluky.com" className={color ? `button button-${color}` : "button"}>Email</a>
         </div>
     )
 }
