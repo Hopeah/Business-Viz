@@ -27,14 +27,17 @@ a {
 
 .container {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(to right, rgb(192, 149, 149), rgba(255, 0, 0, 0.094), rgb(192, 149, 149));
 }
 
 main {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   height: 900px;
   width: 350px;
   background: #ffd5d5;
@@ -42,11 +45,12 @@ main {
 }
 
 .brushes {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 51%;
-  transform: translate(-50%, -50%);
-  margin-left: 190px;
+  transform: translate(-50%, -50%); */
+  /* margin-left: 190px; */
+  order: 1;
 }
 
 /* Info */
