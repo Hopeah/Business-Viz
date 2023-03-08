@@ -58,7 +58,7 @@ main {
 .photo {
   display: block;
   width: 317px;
-  height: 317px;
+  height: 280px;
   background: url(./assets/photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,6 +186,9 @@ ul {
 /* Blue */
 .container-blue {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(to right, rgb(13, 11, 118), rgba(86, 135, 187, 0.765), rgb(13, 11, 118));
 }
 
@@ -232,6 +235,9 @@ ul {
 /* Red */
 .container-red {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(to right, rgb(192, 56, 7), rgba(231, 167, 138, 0.626), rgb(192, 56, 7));
 }
 
@@ -278,6 +284,9 @@ ul {
 /* Green */
 .container-green {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(to right, rgb(60, 113, 66), rgb(142, 200, 149), rgb(60, 113, 66));
 }
 
@@ -324,6 +333,9 @@ ul {
 /* Black */
 .container-black {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(to right, rgb(6, 5, 5), rgba(0, 0, 0, 0.509), rgb(6, 5, 5));
 }
 
